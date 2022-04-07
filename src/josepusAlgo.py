@@ -92,8 +92,6 @@ def josephus(n,k):
 
 
 
-a, b = input().split()
-a = int(a)
-b = int(b)
+a, b = map(int, input().split())
 result = josephus(a,b)
 print(result)
